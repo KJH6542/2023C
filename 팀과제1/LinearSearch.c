@@ -13,7 +13,7 @@ int s(int arr[], int n, int t) {
 int main() {
     int arr[] = {2, 7, 1, 6, 9, 8, 5, 4, 10, 3};
     int n = sizeof(arr) / sizeof(int);
-    int t= 4;
+    int t = 4;
 
     int r = s(arr, n, t);
     if (r != -1) {
